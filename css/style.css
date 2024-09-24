@@ -1,0 +1,38 @@
+#header{
+    text-align: center;
+    background-color: rgb(33, 32, 42);
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#nameAndTitle{
+   background-color: rgb(198, 231, 226);
+   width: 400px;
+   margin: 0px auto;
+}
+
+#nameAndTitle h1, h2{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+#nameAndTitle h1{
+    font-weight: 600;
+}
+
+#nameAndTitle h2{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#contact{
+    list-style-type:none;
+}
+
+#contact i{
+    width: 30px;
+    color: rgb(33, 32, 42) ;
+}
