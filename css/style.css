@@ -1,6 +1,6 @@
 #header{
     text-align: center;
-    background-color: rgb(33, 32, 42);
+    background-color: #21202a;
     margin-top: 25px;
     margin-bottom: 50px;
     font-family: 'Montserrat', sans-serif;
@@ -8,25 +8,33 @@
 }
 
 #nameAndTitle{
-   background-color: rgb(198, 231, 226);
+   background-color: #c6e7e2;
    width: 400px;
    margin: 0px auto;
 }
 
-#nameAndTitle h1, h2{
-    margin: 0;
+h1, h2, h3{
     text-transform: uppercase;
-    font-size: 35px;
 }
 
-#nameAndTitle h1{
+ h2{
+    font-weight: 400;
+}
+h1,h2 {
+    margin: 0;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
 
-#nameAndTitle h2{
-    font-weight: 400;
-    font-size: 20px;
+.card{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 15px;
+    padding: 35px;
 }
+
 
 #contact{
     list-style-type:none;
@@ -34,5 +42,18 @@
 
 #contact i{
     width: 30px;
-    color: rgb(33, 32, 42) ;
+    color: #21202a ;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 20px;
+
+}
+
+#content, #sidebar{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
 }
